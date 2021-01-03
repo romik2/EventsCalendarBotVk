@@ -1,0 +1,7 @@
+C:\My Program Files\Cal\EventsCalendarBotVk\bin\Debug\EventsCalendarBotVk.exe.config
+C:\My Program Files\Cal\EventsCalendarBotVk\bin\Debug\EventsCalendarBotVk.exe
+C:\My Program Files\Cal\EventsCalendarBotVk\bin\Debug\EventsCalendarBotVk.pdb
+C:\My Program Files\Cal\EventsCalendarBotVk\obj\Debug\EventsCalendarBotVk.csprojAssemblyReference.cache
+C:\My Program Files\Cal\EventsCalendarBotVk\obj\Debug\EventsCalendarBotVk.csproj.CoreCompileInputs.cache
+C:\My Program Files\Cal\EventsCalendarBotVk\obj\Debug\EventsCalendarBotVk.exe
+C:\My Program Files\Cal\EventsCalendarBotVk\obj\Debug\EventsCalendarBotVk.pdb
