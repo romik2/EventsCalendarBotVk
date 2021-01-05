@@ -21,27 +21,31 @@ namespace EventsCalendarBotVk
     class Program
     {
         public static VkApi api = new VkApi();
-        public static string connection = "server=localhost;user=root;database=EventsCalendar;password=admins1N;charset=utf8";
+
+
         public static bool ProverkaEvent()
         {
-            MySqlConnection conn = new MySqlConnection(connection);
+            MySqlConnection conn = new MySqlConnection(Config.mysql);
             conn.Open();
             string sql = "SELECT count(id) FROM events WHERE Notification = 1";
             MySqlCommand command = new MySqlCommand(sql, conn);
             if (Convert.ToInt32(command.ExecuteScalar()) > 0)
             {
+                conn.Close();
                 return true;
             }
             else
             {
+                conn.Close();
                 return false;
             }
+            
         }
         public static void Auth()
         {
             ApiAuthParams apis = new ApiAuthParams()
             {
-                AccessToken = "",
+                AccessToken = Config.token,
                 Settings = Settings.All
             };
 
